@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ScoreBoard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>HOME</h1>
+            <p class="left-count">0</p>
+            <div class="btns">
+                <button onclick="leftOne()">+1</button>
+                <button onclick="leftTwo()">+2</button>
+                <button onclick="leftThree()">+3</button>
+            </div>
+        </div>
+        <div class="right">
+            <h1>RECK</h1>
+            <p class="right-count">0</p>
+            <div class="btns">
+                <button onclick="rightOne()">+1</button>
+                <button onclick="rightTwo()">+2</button>
+                <button onclick="rightThree()">+3</button>
+            </div>
+        </div>
+    </div>
+    <button class="reset" onclick="reset()">Reset</button>
+    <script src="script.js"></script>
+</body>
+</html>
