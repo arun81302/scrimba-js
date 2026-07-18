@@ -13,7 +13,7 @@ body{
 }
 .container{
     width: 70%;
-    max-width: 800px;
+    max-width: 500px;
     max-height:500px ;
     height: 300px;
     display: flex;
@@ -75,3 +75,31 @@ p{
     padding: 0.1em 1em;
     
 }
+
+
+@media (max-width: 480px) {
+    html{
+        font-size: 20px;
+    }
+    .container{
+        width: 90%;
+        height: auto;
+
+    }
+    .password-container{
+        width: 100%;
+        gap: 10px;
+    }
+    .one, .two{
+    background-color: #9CA3AF;
+    min-height: 20px;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+    color: #34D399;
+    padding:0.2em 0.5em;
+    font-size: 0.8rem;
+    
+}
+}
+
